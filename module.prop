@@ -1,0 +1,6 @@
+id=aosp_crc
+name=crDroid Call Records Cleaner
+version=v1.0
+versionCode=01
+author=Pycm
+description=crDroid Call Records Cleaner Script. Clean it call records olders 3 days on every boot.
