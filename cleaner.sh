@@ -7,5 +7,5 @@ sleep 60
       find /sdcard/Music/Call*Recordings/ -type f -name '*.amr' -mtime +3 -exec rm {} \;
       find /sdcard/Music/Call*Recordings/ -type f -name '*.aac' -mtime +3 -exec rm {} \;
       fi;
-fi;
+
 # Done
