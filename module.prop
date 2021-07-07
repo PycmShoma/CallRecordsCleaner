@@ -1,6 +1,7 @@
-id=aosp_crc
-name=crDroid Call Records Cleaner
-version=v1.0
-versionCode=01
+id=crc
+name=Call Records Cleaner
+version=v1.2
+versionCode=012
 author=Pycm
-description=crDroid Call Records Cleaner Script. Clean it call records olders 3 days on every boot.
+description=Call Records Cleaner Script. MIUI Dialer, Google Dialer, AOSP Dialer and True Phone. Clean it call records olders 3 days on every boot. You can change clean frequency parameter in cleaner.sh script.
+Change the 7-th and 8-th strings "-mtime +N". Where "+N" is your frequency.
