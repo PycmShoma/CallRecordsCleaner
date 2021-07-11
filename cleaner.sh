@@ -9,8 +9,10 @@ done
          find /data/data/com.google.android.diale*/files/callrecording/ -type f -name '*.amr' -mtime +3 -exec rm {} \;
       fi;
       sleep 3
-      if  [ -d  /sdcard/Music/Call*Recordings ]; then
-         find /sdcard/data/CallRecords-TP/ -type f -name '*.amr' -mtime +3 -exec rm {} \; || find /sdcard/data/CallRecords-TP/ -type f -name '*.m4a' -mtime +3 -exec rm {} \; || find /sdcard/data/CallRecords-TP/ -type f -name '*.wav' -mtime +3 -exec rm {} \;
+      if  [ -d  /sdcard/data/CallRecords-TP ]; then
+         find /sdcard/data/CallRecords-TP/ -type f -name '*.amr' -mtime +3 -exec rm {} \;
+         find /sdcard/data/CallRecords-TP/ -type f -name '*.m4a' -mtime +3 -exec rm {} \;
+         find /sdcard/data/CallRecords-TP/ -type f -name '*.wav' -mtime +3 -exec rm {} \;
       fi;
       sleep 3
       if  [ -d  /sdcard/MIUI/sound_recorder/call_rec ]; then
@@ -18,6 +20,7 @@ done
       fi;
       sleep 3
       if  [ -d  /sdcard/Music/Call*Recordings ]; then
-         find /sdcard/Music/Call*Recordings/ -type f -name '*.aac' -mtime +3 -exec rm {} \; || find /sdcard/Music/Call*Recordings/ -type f -name '*.amr' -mtime +3 -exec rm {} \;
+         find /sdcard/Music/Call*Recordings/ -type f -name '*.aac' -mtime +3 -exec rm {} \;
+         find /sdcard/Music/Call*Recordings/ -type f -name '*.amr' -mtime +3 -exec rm {} \;
       fi;
 # Done
