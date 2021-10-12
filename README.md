@@ -1,5 +1,5 @@
 # Module
-Magisk Module crDroid Call Records Cleaner
+Call Records Cleaner
 
 ## Description
 - Call Records Cleaner Script. 
