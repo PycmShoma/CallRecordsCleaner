@@ -22,7 +22,7 @@ done
       if  [ -d  /sdcard/Music/Call*Recordings ]; then
          find /sdcard/Music/Call*Recordings/ -type f -name '*.aac' -mtime +3 -exec rm {} \;
          find /sdcard/Music/Call*Recordings/ -type f -name '*.amr' -mtime +3 -exec rm {} \;
-      elif [ -d /sdcard/Recordings/Call*recordings]; then
+      elif [ -d /sdcard/Recordings/Call*recordings ]; then
          find /sdcard/Recordings/Call*recordings/ -type f -name '*.aac' -mtime +3 -exec rm {} \;
          find /sdcard/Recordings/Call*recordings/ -type f -name '*.amr' -mtime +3 -exec rm {} \;
       fi;
