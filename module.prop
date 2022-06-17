@@ -1,0 +1,6 @@
+id=CallRecordsCleaner
+name=Call Records Cleaner
+version=1.3
+versionCode=013
+author=Pycm [4PDA]
+description=Call Records Cleaner Script. MIUI Dialer, Google Dialer, AOSP Dialer and True Phone. Clean it call records olders 3 days on every boot
